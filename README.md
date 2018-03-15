@@ -7,14 +7,15 @@ repository hosted right here on [Github](https://github.com).
 ## Why?
 I really liked the original example because of how well it integrates Webpack3
 and Yarn together to make adding packages a breeze (just `yarn add package-name`
-Bob's your uncle.  I also changed all the files that use JSX from .js to .jsx
+and Bob's your uncle).  I also changed all the files that use JSX from `.js` to `.jsx`
 because some text-editors have trouble with the JSX syntax unless it is pre-
 emptively declared this way.  IMO, this is the better way to do it anyway
-(and it definitely helps with my infernal emacs setup).
+(and it definitely helps with my infernal emacs setup :P).
 
-Also, we wrap the react-router v4 library around our application so that we can
-route our components to a single page. It really is quite brilliant if you have
-ever wanted to create a simple SPA without having to set-up something on the
+Also, we wrap the react-router v4 library around our application using
+`<BrowserRouter>` so that we can route our components to a single page. It
+really is quite brilliant if you have ever wanted to create a simple SPA without
+having to set-up something on the
 backend. Our `build` code should work just fine in a static setup without having
 to hand-code or generate individual pages, so noice!
 
