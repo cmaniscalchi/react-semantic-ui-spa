@@ -37,3 +37,10 @@ Running `yarn start` starts up your hotloading webpack-dev-server on
 
 When you're ready for deployment then run `yarn build` and your `build` folder
 is ready for action. If you build something cool with this, let me know!
+
+## TODO
+
+I would really love to figure out how to get this bad boy working with gh-pages,
+there is an example over [here](https://github.com/rafrex/spa-github-pages) that I
+tried to implement but couldn't quite get it to work.  If we could figure it out
+it could be quite promising though because I find Jekyll just too obtuse.
