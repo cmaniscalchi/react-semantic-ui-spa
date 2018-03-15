@@ -12,7 +12,12 @@ const HomepageHeading = ({ mobile }) => (
     <Header size='small' as='h2' style={{fontWeight: 'normal', fontStyle: 'italic'}}>
       What's that you say?
     </Header>
-    <p>With Weback3, YARN, React, Semanti-UI, React-Router we can make magic!</p>
+    <p>With <a href="https://webpack.js.org/">Weback3</a>,
+      <a href="https://yarnpkg.com">Yarn</a>, <a href="https://reactjs.org">React</a>,
+      <a href="semantic-ui.com">Semanti-UI</a>, and
+      <a href="https://reacttraining.com/react-router/web/guides/philosophy">
+        React-Router</a> we can make magic!
+    </p>
   </Container>
 )
 
